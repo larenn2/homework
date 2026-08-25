@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 300px;
+}
+
+.form-group {
+    background-color: rgb(218, 248, 248);
+    border-radius: 12px;
+    border: 2px solid black
+}
+
+.block-label {
+    font-weight: 550;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+
+.info {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black ;
+}
+
+textarea {
+    width: 200px;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 20px;
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-bottom: 10px;
+
+}
+
+.yes {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+button {
+    height: 30px;
+    width: 110px;
+    display: block;
+    background-color: rgb(133, 189, 198);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
