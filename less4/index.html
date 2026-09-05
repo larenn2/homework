@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <form class="form=">
+    <form>
 
         <fieldset class="form-group">
 
-            <h2>Ваши личные данные</h2>
+            <legend>Ваши личные данные</legend>
 
             <label class="block-label" for="name">Ваше имя</label>
             <input class="info" id="name" type="text" placeholder="Имя" name="name" required>
@@ -34,7 +35,7 @@
 
             <div class="yes">
 
-                <input id="yes" type="checkbox" name="checkbox" required value="yes">
+                <input class="checkbox" id="yes" type="checkbox" name="checkbox" required value="yes">
                 <label class="text" for="yes">Я принимаю правила</label>
                 
             </div>
