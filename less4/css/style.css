@@ -16,11 +16,19 @@ body {
 
 
 form {
+    background-color: rgb(218, 248, 248);
+    border-radius: 12px;
+    border: none;
+    padding: 30px;
+    border: 2px solid black;
     max-width: 400px;
     width: 100%;
     
 }
 
+.form-group {
+    border: none;
+}
 
 legend {
   font-weight: 700;
@@ -28,12 +36,6 @@ legend {
   margin-bottom: 10px;
 }
 
-.form-group {
-    background-color: rgb(218, 248, 248);
-    border-radius: 12px;
-    border: 2px solid black;
-    padding: 30px;
-}
 
 .block-label {
     font-weight: 600;
