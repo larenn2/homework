@@ -88,6 +88,15 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.2s;
+ }
+
+ .article-play-button:hover {
+  background-color: #59b2ff;
+ }
+
+ .article-play-button:not(:disabled):active {
+  background-color: #2469a5;
  }
 
  .article-video {
