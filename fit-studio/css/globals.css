@@ -9,7 +9,6 @@ body * ,
 *::before ,
 *::after  {
   box-sizing: border-box;
-  flex-shrink: 0;
 }
 
 body {
