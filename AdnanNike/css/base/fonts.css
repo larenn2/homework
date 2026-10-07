@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Futura;
+  src: local("Futura Bk BT"), local("Futura-Bk-BT"),
+    url("../fonts/fileconvertfree_Futura\ Bk\ BT\ Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn Light"), local("Futura-LtCn-Light"),
+    url("../fonts/fileconvertfree_Futura\ LT\ Condensed\ Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Inter"), local("Inter"),
+    url("../fonts/fileconvertfree_Inter-Regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura XBlkCnIt BT"), local("Futura-XBlkCnIt-BT"),
+    url("../fonts/fileconvertfree_Futura\ Extra\ Black\ Condensed\ Italic\ BT.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura Md BT"), local("Futura-Md-BT"),
+    url("../fonts/fileconvertfree_Futura\ Md\ BT\ Medium.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura Hv BT"), local("Futura-Hv-BT"),
+    url("../fonts/fileconvertfree_Futura\ Heavy\ BT.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LT"), local("Futura LT"),
+    url("../fonts/fileconvertfree_ofont.ru_Futura_Light-Normal.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura-Black"), local("Futura-Black"),
+    url("../fonts/fileconvertfree_Futura\ Black\ BT.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura Md BT Bold Italic"), local("Futura-Md-BT-Bold-Italic"),
+    url("../fonts/fileconvertfree_Futura\ Md\ BT\ Bold\ Italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LT Bold"), local("Futura-LT-Bold"),
+    url("../fonts/fileconvertfree_futuralt-bold.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  padding-top: 48px;
+}
+
+.header__container {
+  position: relative;
+}
+
+.header__menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 128px;
+  gap: 23px;
+}
+
+.menu__link {
+  position: relative;
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.menu__list:first-of-type .menu__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 58px;
+  height: 8px;
+  background: #ba0000;
+}
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  z-index: 2;
+}
+
+.header__controls {
+  display: flex;
+  justify-content: end;
+}
+
+.header__actions {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+}

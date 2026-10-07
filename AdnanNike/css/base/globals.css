@@ -1,0 +1,16 @@
+
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 375px;
+    min-height: 200vh;
+    background-color:  black;
+    font-family: var(--font-family);
+}
+
+ a {
+    color: white;
+ }
+
