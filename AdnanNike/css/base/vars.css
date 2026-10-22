@@ -13,6 +13,7 @@
   --font8: "Futura Md BT Bold Italic", sans-serif;
   --font9: "Futura LT Bold", sans-serif;
 
-  /* color */
-
+  /* container */
+  --container-width: 1240px;
+  --container-padding: 15px;
 }

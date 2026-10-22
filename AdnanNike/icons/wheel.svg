@@ -1,0 +1,32 @@
+
+
+<svg id='wheel' width="138" height="481" viewBox="-6 -2 156 485" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M-0.981842 480.388C102.892 405.017 248.316 203.498 -0.981842 0.387634" stroke="white" />
+  <circle cx="3" cy="4" r="5"
+            fill="#ad3338" stroke="#eeeeee" stroke-width="1"/>
+
+    <!-- Фиолетовая точка -->
+    <circle cx="62" cy="61" r="5"
+            fill="#a512a5" stroke="#eeeeee" stroke-width="1"/>
+
+    <!-- Синяя точка -->
+    <circle cx="114" cy="139" r="5"
+            fill="#174b9b" stroke="#eeeeee" stroke-width="1"/>
+
+    <!-- Активная точка -->
+    <circle cx="136" cy="241" r="8"
+            fill="#050505" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Красная точка -->
+    <circle cx="116" cy="337" r="5"
+            fill="#ad3338" stroke="#eeeeee" stroke-width="1"/>
+
+    <!-- Оливковая точка -->
+    <circle cx="63" cy="421" r="5"
+            fill="#87952d" stroke="#eeeeee" stroke-width="1"/>
+
+    <!-- Зелёная точка снизу -->
+    <circle cx="3" cy="477" r="5"
+            fill="#439c83" stroke="#eeeeee" stroke-width="1"/>
+
+</svg>

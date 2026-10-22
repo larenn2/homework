@@ -9,13 +9,15 @@
   <body>
     <header class="header">
       <div class="container header__container">
-     
         <nav class="menu header__menu">
-             <button class="header_burger burger" title="menu" aria-label="menu">
-          <svg width="40" height="12">
-            <use class="header__burger-icon" href="./icons/burger.svg#burger"></use>
-          </svg>
-        </button>
+          <button class="header_burger burger" title="menu" aria-label="menu">
+            <svg width="40" height="12">
+              <use
+                class="header__burger-icon"
+                href="./icons/burger.svg#burger"
+              ></use>
+            </svg>
+          </button>
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#new-arrival" class="menu__link">new arrival</a>
@@ -37,19 +39,22 @@
             </li>
           </ul>
         </nav>
-        <a class="logo header__logo" href="#">
-          <img
-            class="logo__png"
-            src="./img/Logo.png"
-            width="80"
-            height="32"
-            alt="Логотип Nike"
-          />
-        </a>
+        <div class="header__logo">
+          <a class="logo" href="#">
+            <img
+              class="logo__png"
+              src="./img/Logo.png"
+              width="80"
+              height="32"
+              alt="Логотип Nike"
+            />
+          </a>
+        </div>
+
         <div class="header__controls">
           <div class="header__actions">
             <button
-              class="header_actions-button"
+              class="header__actions-button"
               title="search"
               aria-label="search"
             >
@@ -84,5 +89,128 @@
         </div>
       </div>
     </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__bg-text">AIR JORDAN 1 RETRO HIGH OG DUNK HIGH</div>
+        <svg class="wheel-icon" width="160" height="481">
+          <use  href="./icons/wheel.svg#wheel"></use>
+        </svg>
+        <div class="container hero__container">
+          <div class="hero__visual">
+            <img
+              class="hero__img"
+              src="./img/product-hero.png"
+              alt="Air Jordan"
+              width="560"
+              height="308"
+            />
+            <svg class="turn-icon" width="34" height="22">
+              <use  href="./icons/turn.svg#turn"></use>
+            </svg>
+            <button class="hotspot hotspot--1">
+              <svg width="16" height="16">
+                <use class="hotspot-icon" href="./icons/cross.svg#cross"></use>
+              </svg>
+            </button>
+            <button class="hotspot hotspot--2">
+              <svg width="16" height="16">
+                <use class="hotspot-icon" href="./icons/cross.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
+
+          <header class="hero__info">
+            <h1 class="hero__title">AIR JORDAN 1 RETRO HIGH OG</h1>
+            <div class="hero__meta">
+              <span class="hero__price">$275</span>
+              <div class="hero__size">
+                <label for="size-select">Size</label>
+                <select class="size-select" name="size" id="size-select">
+                  <option value="41">41</option>
+                  <option value="40">40</option>
+                  <option value="39">39</option>
+                </select>
+                <arrow class="arrow--down">
+                  <svg width="14" height="7">
+                    <use href="./icons/arrow-down.svg#arrow-down"></use>
+                  </svg>
+                </arrow>
+                <button class="bag-button" title="bag" aria-label="bag">
+                  <svg width="16" height="20">
+                    <use href="./icons/bag.svg#bag"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <a class="btn-details" href="#"
+              >More Details
+              <svg width="11" height="11">
+                <use href="./icons/arrow-top.svg#arrow-top"></use>
+              </svg>
+            </a>
+          </header>
+        </div>
+      </section>
+
+      <footer class="hero__footer container">
+        <div class="carousel-nav">
+          <svg width="9" height="15">
+            <use
+              class="header__burger-icon"
+              href="./icons/arrow.svg#arrow"
+            ></use>
+          </svg>
+          <div class="container">
+            <a class="carousel-nav__link prev" href="#">Previous</a>
+            <a class="carousel-nav__link next" href="#">Next</a>
+          </div>
+          <svg class="arrow-right" width="9" height="15">
+            <use
+              class="header__burger-icon"
+              href="./icons/arrow.svg#arrow"
+            ></use>
+          </svg>
+        </div>
+        <div class="carousel-list">
+          <div class="carousel-item">
+            <div class="carousel-item__img-wrapper hero-footer-1">
+              <img
+                class="carousel-item__img"
+                src="./img/hero-footer-1.png"
+                alt="Nike Cosmic Unity 2"
+                width="229"
+                height="134"
+              />
+            </div>
+            <h3 class="carousel-item__title">Nike Cosmic Unity 2</h3>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item__img-wrapper hero-footer-2">
+              <img
+                class="carousel-item__img"
+                src="./img/hero-footer-2.png"
+                alt="NIKE SB Dunk High"
+                width="229"
+                height="102"
+              />
+            </div>
+
+            <h3 class="carousel-item__title">NIKE SB Dunk High</h3>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item__img-wrapper hero-footer-3">
+              <img
+                class="carousel-item__img"
+                src="./img/hero-footer-3.png"
+                alt="Nike Dynamo GO SE"
+                width="229"
+                height="117"
+              />
+            </div>
+            <h3 class="carousel-item__title">Nike Dynamo GO SE</h3>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
