@@ -1,0 +1,163 @@
+.essence {
+  width: 100%;
+  min-height: 720px;
+  padding: 120px 20px 100px;
+  background-image: url("/img/essence-shoe.png");
+  background-repeat: no-repeat;
+  background-position: left -25px bottom -300px;
+  background-size: 500px auto;
+}
+
+.essence__container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.essence__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 80px;
+  font-family: var(--font4);
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 156%;
+  text-align: center;
+  color: #fff;
+}
+
+.essence__title-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 100%;
+}
+
+.essence__inline-image {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.essence__description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+  color: #fff;
+}
+
+.essence__description p {
+  margin-bottom: 12px;
+}
+
+.essence__description p:last-child {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.essence__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 80px;
+  padding: 12px 20px;
+  min-width: 135px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+.essence__button svg {
+  fill: #fff;
+  transition: fill 0.3s;
+}
+
+.essence__button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.essence__button:hover svg {
+  fill: #000;
+}
+
+
+@media (max-width: 768px) {
+  .essence {
+    padding: 80px 20px 100px;
+  }
+
+  .essence__title {
+    font-size: clamp(25px, 6vw, 38px);
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  .essence__inline-image {
+    width: 42px;
+    height: 42px;
+  }
+
+  .essence__description {
+    font-size: 11px;
+    line-height: 2.2;
+  }
+
+
+  .essence__button {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .essence__title {
+    font-size: 24px;
+  }
+
+  .essence__title-line {
+    gap: 8px;
+  }
+
+  .essence__inline-image {
+    width: 34px;
+    height: 34px;
+  }
+
+  .essence__description {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+    .essence {
+        background-size: 340px auto;
+        background-position: left -90px bottom -65px;
+    }
+}
+
+@media (max-width: 480px) {
+    .essence {
+        background-size: 260px auto;
+        background-position: left -85px bottom -40px;
+    }
+}

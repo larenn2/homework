@@ -9,208 +9,214 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <nav class="menu header__menu">
-          <button class="header_burger burger" title="menu" aria-label="menu">
-            <svg width="40" height="12">
-              <use
-                class="header__burger-icon"
-                href="./icons/burger.svg#burger"
-              ></use>
+        <nav class="menu header__menu" aria-label="Main navigation">
+          <button class="header__burger burger" type="button" title="Menu" aria-label="Menu">
+            <svg class="burger__icon" width="34" height="12" aria-hidden="true">
+              <use href="./icons/burger.svg#burger"></use>
             </svg>
           </button>
+
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#new-arrival" class="menu__link">new arrival</a>
+              <a href="#new-arrival" class="menu__link menu__link--active" aria-current="page">New arrival</a>
             </li>
-          </ul>
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#men" class="menu__link">men</a>
-            </li>
-          </ul>
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#women" class="menu__link">women</a>
-            </li>
-          </ul>
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#kids" class="menu__link">kids</a>
-            </li>
+            <li class="menu__item"><a href="#men" class="menu__link">Men</a></li>
+            <li class="menu__item"><a href="#women" class="menu__link">Women</a></li>
+            <li class="menu__item"><a href="#kids" class="menu__link">Kids</a></li>
           </ul>
         </nav>
-        <div class="header__logo">
-          <a class="logo" href="#">
-            <img
-              class="logo__png"
-              src="./img/Logo.png"
-              width="80"
-              height="32"
-              alt="Логотип Nike"
-            />
-          </a>
-        </div>
+
+        <a class="header__logo logo" href="#" aria-label="Nike homepage">
+          <img
+            class="logo__png"
+            src="./img/Logo.png"
+            width="80"
+            height="32"
+            alt="Nike"
+          />
+        </a>
 
         <div class="header__controls">
-          <div class="header__actions">
-            <button
-              class="header__actions-button"
-              title="search"
-              aria-label="search"
-            >
-              <svg width="18" height="18">
-                <use
-                  class="header__actions-icon"
-                  href="./icons/search.svg#search"
-                ></use>
+          <nav class="header__actions" aria-label="Account and shopping links">
+            <a class="header__action-link" href="#search" aria-label="Search" title="Search">
+              <svg class="header__actions-icon" width="18" height="18" aria-hidden="true">
+                <use href="./icons/search.svg#search"></use>
               </svg>
-            </button>
-            <button
-              class="header_actions-button"
-              title="account"
-              aria-label="account"
-            >
-              <svg width="16" height="16">
-                <use
-                  class="header__actions-icon"
-                  href="./icons/account.svg#account"
-                ></use>
+            </a>
+            <a class="header__action-link" href="#account" aria-label="Account" title="Account">
+              <svg class="header__actions-icon" width="16" height="16" aria-hidden="true">
+                <use href="./icons/account.svg#account"></use>
               </svg>
-            </button>
-            <button class="header_actions-button" title="bag" aria-label="bag">
-              <svg width="16" height="20">
-                <use
-                  class="header__actions-icon"
-                  href="./icons/bag.svg#bag"
-                ></use>
+            </a>
+            <a class="header__action-link" href="#bag" aria-label="Shopping bag" title="Shopping bag">
+              <svg class="header__actions-icon" width="16" height="20" aria-hidden="true">
+                <use href="./icons/bag.svg#bag"></use>
               </svg>
-            </button>
-          </div>
+            </a>
+          </nav>
         </div>
       </div>
     </header>
+
     <main class="main">
-      <section class="hero">
-        <div class="hero__bg-text">AIR JORDAN 1 RETRO HIGH OG DUNK HIGH</div>
-        <svg class="wheel-icon" width="160" height="481">
-          <use  href="./icons/wheel.svg#wheel"></use>
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero__bg-text" aria-hidden="true">AIR JORDAN 1 RETRO HIGH OG DUNK HIGH</div>
+
+        <svg class="wheel-icon" width="138" height="481" aria-hidden="true">
+          <use href="./icons/wheel.svg#wheel"></use>
         </svg>
+
         <div class="container hero__container">
           <div class="hero__visual">
             <img
               class="hero__img"
               src="./img/product-hero.png"
-              alt="Air Jordan"
+              alt="Air Jordan 1 Retro High OG"
               width="560"
               height="308"
             />
-            <svg class="turn-icon" width="34" height="22">
-              <use  href="./icons/turn.svg#turn"></use>
+
+            <svg class="turn-icon" width="34" height="22" aria-hidden="true">
+              <use href="./icons/turn.svg#turn"></use>
             </svg>
-            <button class="hotspot hotspot--1">
-              <svg width="16" height="16">
-                <use class="hotspot-icon" href="./icons/cross.svg#cross"></use>
+
+            <button class="hotspot hotspot--1" type="button" aria-label="View shoe detail 1">
+              <svg class="hotspot-icon" width="16" height="16" aria-hidden="true">
+                <use href="./icons/cross.svg#cross"></use>
               </svg>
             </button>
-            <button class="hotspot hotspot--2">
-              <svg width="16" height="16">
-                <use class="hotspot-icon" href="./icons/cross.svg#cross"></use>
+            <button class="hotspot hotspot--2" type="button" aria-label="View shoe detail 2">
+              <svg class="hotspot-icon" width="16" height="16" aria-hidden="true">
+                <use href="./icons/cross.svg#cross"></use>
               </svg>
             </button>
           </div>
 
-          <header class="hero__info">
-            <h1 class="hero__title">AIR JORDAN 1 RETRO HIGH OG</h1>
+          <div class="hero__info">
+            <h1 class="hero__title" id="hero-title">Air Jordan 1 Retro High OG</h1>
+
             <div class="hero__meta">
               <span class="hero__price">$275</span>
               <div class="hero__size">
                 <label for="size-select">Size</label>
-                <select class="size-select" name="size" id="size-select">
-                  <option value="41">41</option>
-                  <option value="40">40</option>
-                  <option value="39">39</option>
-                </select>
-                <arrow class="arrow--down">
-                  <svg width="14" height="7">
-                    <use href="./icons/arrow-down.svg#arrow-down"></use>
-                  </svg>
-                </arrow>
-                <button class="bag-button" title="bag" aria-label="bag">
-                  <svg width="16" height="20">
+                <div class="size-select-wrap">
+                  <select class="size-select" name="size" id="size-select">
+                    <option value="41">41</option>
+                    <option value="40">40</option>
+                    <option value="39">39</option>
+                  </select>
+                  <span class="arrow--down" aria-hidden="true">
+                    <svg width="14" height="7">
+                      <use href="./icons/arrow-down.svg#arrow-down"></use>
+                    </svg>
+                  </span>
+                </div>
+                <button class="bag-button" type="button" title="Add to bag" aria-label="Add to bag">
+                  <svg width="16" height="20" aria-hidden="true">
                     <use href="./icons/bag.svg#bag"></use>
                   </svg>
                 </button>
               </div>
             </div>
-            <a class="btn-details" href="#"
-              >More Details
-              <svg width="11" height="11">
+
+            <a class="btn-details" href="#details">
+              <span>More Details</span>
+              <svg class="btn-details__icon" width="11" height="11" aria-hidden="true">
                 <use href="./icons/arrow-top.svg#arrow-top"></use>
               </svg>
             </a>
-          </header>
+          </div>
         </div>
-      </section>
 
-      <footer class="hero__footer container">
-        <div class="carousel-nav">
-          <svg width="9" height="15">
-            <use
-              class="header__burger-icon"
-              href="./icons/arrow.svg#arrow"
-            ></use>
-          </svg>
-          <div class="container">
-            <a class="carousel-nav__link prev" href="#">Previous</a>
-            <a class="carousel-nav__link next" href="#">Next</a>
-          </div>
-          <svg class="arrow-right" width="9" height="15">
-            <use
-              class="header__burger-icon"
-              href="./icons/arrow.svg#arrow"
-            ></use>
-          </svg>
-        </div>
-        <div class="carousel-list">
-          <div class="carousel-item">
-            <div class="carousel-item__img-wrapper hero-footer-1">
-              <img
-                class="carousel-item__img"
-                src="./img/hero-footer-1.png"
-                alt="Nike Cosmic Unity 2"
-                width="229"
-                height="134"
-              />
-            </div>
-            <h3 class="carousel-item__title">Nike Cosmic Unity 2</h3>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-item__img-wrapper hero-footer-2">
-              <img
-                class="carousel-item__img"
-                src="./img/hero-footer-2.png"
-                alt="NIKE SB Dunk High"
-                width="229"
-                height="102"
-              />
-            </div>
 
-            <h3 class="carousel-item__title">NIKE SB Dunk High</h3>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-item__img-wrapper hero-footer-3">
-              <img
-                class="carousel-item__img"
-                src="./img/hero-footer-3.png"
-                alt="Nike Dynamo GO SE"
-                width="229"
-                height="117"
-              />
+        <footer class="hero__footer container">
+          <nav class="carousel-nav" aria-label="Product carousel navigation">
+            <a class="carousel-nav__arrow" href="#previous" aria-label="Previous products">
+              <svg width="9" height="15" aria-hidden="true">
+                <use href="./icons/arrow.svg#arrow"></use>
+              </svg>
+            </a>
+            <div class="carousel-nav__links">
+              <a class="carousel-nav__link prev" href="#previous">Previous</a>
+              <a class="carousel-nav__link next" href="#next">Next</a>
             </div>
-            <h3 class="carousel-item__title">Nike Dynamo GO SE</h3>
+            <a class="carousel-nav__arrow arrow-right" href="#next" aria-label="Next products">
+              <svg width="9" height="15" aria-hidden="true">
+                <use href="./icons/arrow.svg#arrow"></use>
+              </svg>
+            </a>
+          </nav>
+
+          <div class="carousel-list">
+            <article class="carousel-item">
+              <div class="carousel-item__img-wrapper hero-footer-1">
+                <img class="carousel-item__img" src="./img/hero-footer-1.png" alt="Nike Cosmic Unity 2" width="229" height="134" />
+              </div>
+              <h2 class="carousel-item__title">Nike Cosmic Unity 2</h2>
+            </article>
+            <article class="carousel-item">
+              <div class="carousel-item__img-wrapper hero-footer-2">
+                <img class="carousel-item__img" src="./img/hero-footer-2.png" alt="Nike SB Dunk High" width="229" height="102" />
+              </div>
+              <h2 class="carousel-item__title">Nike SB Dunk High</h2>
+            </article>
+            <article class="carousel-item">
+              <div class="carousel-item__img-wrapper hero-footer-3">
+                <img class="carousel-item__img" src="./img/hero-footer-3.png" alt="Nike Dynamo GO SE" width="229" height="117" />
+              </div>
+              <h2 class="carousel-item__title">Nike Dynamo GO SE</h2>
+            </article>
           </div>
-        </div>
-      </footer>
+        </footer>
+        </section>
     </main>
+    <div class="label-section">
+      <img class="label" src="./img/Labels.png" alt="">
+    </div>
+
+
+    <section class="essence">
+
+      <div class="essence__container">
+        <h2 class="essence__title">
+          <span class="essence__title-line">
+        THE ESSENCE
+        <img
+            class="essence__inline-image"
+            src="./img/Rectangle1.jpg"
+            alt=""
+        >
+          </span>
+
+    <span class="essence__title-line">
+        HANDCRAFTED
+    </span>
+
+    <span class="essence__title-line">
+        <img
+            class="essence__inline-image"
+            src="./img/Rectangle2.jpg"
+            alt=""
+        >
+        OF FOOTWEAR.
+    </span>
+
+        </h2>
+        <div class="essence__description">
+            <p>
+               In terms of footwear, we are the first in Canada to have opened not simple "shops" but real company outlets that offer the same service as the artisan shops of yesteryear: this to make you go without fail every time you want to buy a pair of handmade genuine leather shoes. Without fear of making mistakes and with the certainty that you will be able to wear them comfortably from the beginning.
+Are you also curious to find out why hundreds of people choose us every day?
+            </p>
+
+        </div>
+        <a href="#" class="essence__button">
+            Find Out More
+            <svg width="11" height="11">
+                <use href="./icons/arrow-top.svg#arrow-top"></use>
+            </svg>
+        </a>
+
+    </div>
+    </section>
   </body>
 </html>

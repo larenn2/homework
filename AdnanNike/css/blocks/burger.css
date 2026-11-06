@@ -1,27 +1,19 @@
-@media (width > 768px) {
-  .burger {
-    display: none;
-  }
+.burger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 24px;
+  color: #fff;
 }
 
-@media (width <= 768px) {
-  .burger {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: var(--layer-3);
-    width: 24px;
-    height: 24px;
-  }
+.burger__icon {
+  width: 34px;
+  height: 12px;
+}
 
-  .burger__icon-menu,
-  .burger--open .burger__icon-cross {
-    display: block;
-  }
-
-  .burger__icon-cross,
-  .burger--open .burger__icon-menu {
-    display: none;
-  }
+.burger:hover,
+.burger:focus-visible {
+  opacity: 0.7;
 }

@@ -1,13 +1,12 @@
-/* base */
+/* Base styles */
+@import "./base/fonts.css";
+@import "./base/normalize.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
 
-@import '../css/base/fonts.css' ;
-@import '../css/base/normalize.css';
-@import '../css/base/vars.css';
-@import '../css/base/globals.css';
-
-/* blocks */
-
-@import '../css/blocks/header.css';
-@import '../css/blocks/burger.css';
-@import '../css/blocks/hero.css'
-
+/* Page blocks */
+@import "./blocks/header.css";
+@import "./blocks/burger.css";
+@import "./blocks/hero.css";
+@import "./blocks/flash-ticker.css";
+@import "./blocks/essence.css";

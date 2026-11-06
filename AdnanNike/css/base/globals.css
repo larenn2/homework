@@ -1,18 +1,29 @@
-
-*  {
-    box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
 }
-
-
 
 body {
-    min-width: 375px;
-    min-height: 200vh;
-    background-color:  black;
-    font-family: var(--font-family);
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
 }
 
- a {
-    color: white;
- }
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding-inline: var(--container-padding);
+}
 
+a {
+  color: inherit;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
